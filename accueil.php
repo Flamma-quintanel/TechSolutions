@@ -6,7 +6,7 @@
      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
-    <?php include "inc/pied.php"; ?>
+    <?php include "menu.php"; ?>
       <ul  class="menu">
         <li><a href="accueil.php">Presentation de l'entreprise</a></li>
         <li><a href="services.php">Nos services</a></li>
@@ -41,3 +41,5 @@
         <td width="50%" valign=top>Tout compris,assistance illimitée</td>
         <td width="25%" valign=top>290 euros par mois</td>
         </tr> 
+        <?php include "inc/pied.php"; ?>
+</body>
