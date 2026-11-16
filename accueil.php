@@ -6,13 +6,7 @@
      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
-    <?php include "menu.php"; ?>
-      <ul  class="menu">
-        <li><a href="accueil.php">Presentation de l'entreprise</a></li>
-        <li><a href="services.php">Nos services</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="connexion.php">pour vous connécter</a></li>
-      </ul>
+    <?php include "inc/menu.php"; ?>
 <p>Nom de l'entreprise :<strong>TechSolutions</strong></p>
 <H1>Accueil</H1>
 <H3>Bienvenue sur notre site</H3>
@@ -40,6 +34,7 @@
         <tr><td width="25%" valign=top>Premium</td>
         <td width="50%" valign=top>Tout compris,assistance illimitée</td>
         <td width="25%" valign=top>290 euros par mois</td>
-        </tr> 
+        </tr>
+</table> 
         <?php include "inc/pied.php"; ?>
 </body>
