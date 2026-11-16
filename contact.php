@@ -6,12 +6,7 @@
      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
-     <ul  class="menu">
-        <li><a href="accueil.php">Presentation de l'entreprise</a></li>
-        <li><a href="services.php">Nos services</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="connexion.php">pour vous connécter</a></li>
-      </ul>
+    <?php include "inc/menu.php"; ?>
       <p><h4>Une question ? Appelez-nous</p></h4>
       <p>Nos coordonnées</p>
       <p>Téléphone : 05 55 00 00 00</p>
