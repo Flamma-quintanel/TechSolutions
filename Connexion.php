@@ -7,8 +7,8 @@
    </head>
    <body>
      <ul  class="menu">
-        <li><a href="Presentation de l'entreprise">Presentation de l'entreprise</a></li>
-        <li><a href="Nos services">Nos services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="connexion">pour vous connécter</a></li>
+        <li><a href="accueil.php">Presentation de l'entreprise</a></li>
+        <li><a href="services.php">Nos services</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="connexion.php">pour vous connécter</a></li>
       </ul>
