@@ -6,6 +6,7 @@
      <link rel="stylesheet" href="css/style.css">
    </head>
    <body>
+    <?php include "inc/pied.php"; ?>
       <ul  class="menu">
         <li><a href="accueil.php">Presentation de l'entreprise</a></li>
         <li><a href="services.php">Nos services</a></li>
