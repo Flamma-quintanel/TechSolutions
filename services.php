@@ -1,3 +1,13 @@
+<?php
+include "inc/infos.php";
+
+// Les tarifs hors taxes et le taux de TVA, écrits une seule fois
+$essentiel = 60;
+$serenite = 150;
+$premium = 290;
+$tva = 20;
+?>
+<!DOCTYPE html>
 <?php include "inc/infos.php"; ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -8,3 +18,6 @@
    </head>
    <body>
        <?php include "inc/menu.php"; ?>
+       <?php include "inc/pied.php"; ?>
+      </body>
+   

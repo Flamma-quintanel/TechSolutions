@@ -24,5 +24,6 @@
         <td width="50%" valign=top>9h00 - 12h00</td>
     </tr>
 </table>
+ <?php include "inc/pied.php"; ?>
 </body>
 </html>
