@@ -1,4 +1,3 @@
-<?php include "inc/infos.php"; ?>
 <?php
 include "inc/infos.php";
 require "inc/bdd.php";
@@ -18,6 +17,7 @@ $utilisateurs = $requete->fetchAll();
         <h1>Gestion des utilisateurs</h1>
         <p>Bienvenue sur la page de gestion des utilisateurs.</p>
         <p>ici vous pouvez gérer les comptes du personnel</p>
+        <p>Nombre de comptes : <?php echo count($utilisateurs); ?></p>
         <table>
       <tr>
         <th>Prénom</th>
