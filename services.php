@@ -12,7 +12,7 @@ $tva = 20;
 <html lang="fr">
   <head>
     <meta charset="utf-8">
-     <title>Texte de l'onglet</title>
+     <title>Services</title>
      <link rel="stylesheet" href="css/Style.css">
     </head>
    <body>
